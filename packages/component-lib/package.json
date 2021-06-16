@@ -1,7 +1,10 @@
 {
   "name": "@browserstack-demo/component-lib",
-  "version": "0.1.0",
-  "private": true,
+  "version": "0.1.1",
+  "private": false,
+  "publishConfig": {
+    "access": "public"
+  },
   "dependencies": {
     "cross-env": "^7.0.3",
     "react": "^17.0.2",
@@ -41,5 +44,9 @@
     "@babel/preset-env": "^7.14.5",
     "@babel/preset-react": "^7.14.5",
     "babel-preset-minify": "^0.5.1"
+  },
+  "peerDependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
   }
 }
