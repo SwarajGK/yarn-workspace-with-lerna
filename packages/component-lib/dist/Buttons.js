@@ -1,0 +1,1 @@
+"use strict";var _react=_interopRequireDefault(require("react"));Object.defineProperty(exports,"__esModule",{value:!0}),exports.default=Button;function _interopRequireDefault(a){return a&&a.__esModule?a:{default:a}}function Button(a){var b=a.children,c=a.onClick;return/*#__PURE__*/_react.default.createElement("button",{onClick:c},b)}
