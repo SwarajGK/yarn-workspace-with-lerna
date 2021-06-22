@@ -1,4 +1,10 @@
-import { Button, Input } from "@browserstack-demo/component-lib";
+import {
+  Button,
+  Input,
+  // Link,
+  // Text,
+  // Typography
+} from "@browserstack-demo/component-lib";
 
 function App() {
   const onClick = () => {
@@ -16,6 +22,8 @@ function App() {
         onChange={onChange}
       />
       {/* <Link href="/">Main page</Link> */}
+      {/* <Typography tag="h1">This is the h1 tag</Typography>
+      <Text>This is text component</Text> */}
     </div>
   );
 }

@@ -1,0 +1,1 @@
+"use strict";var _react=_interopRequireDefault(require("react"));Object.defineProperty(exports,"__esModule",{value:!0}),exports.default=Typography;function _interopRequireDefault(a){return a&&a.__esModule?a:{default:a}}function Typography(a){var b=a.children;return/*#__PURE__*/_react.default.createElement("h1",null,b)}
